@@ -1,0 +1,43 @@
+# Dependencies
+**/node_modules/
+**/.venv/
+**/.venv*/
+**/venv/
+
+# Frontend build and tooling
+frontend/dist/
+frontend/.vite/
+frontend/tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Environment and local secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Python caches and test artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editors, OS metadata and local logs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Archives and local generated output
+*.zip
+*.tar
+*.tar.gz
+
