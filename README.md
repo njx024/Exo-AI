@@ -1,4 +1,4 @@
-# EXO AI
+#  EXO AI
 
 EXO AI is a full-stack exoplanet exploration and screening application built with React, TypeScript, Vite, FastAPI, Python, and scientific computation modules.
 
